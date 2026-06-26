@@ -1,0 +1,143 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+display:flex;
+min-height:100vh;
+background:linear-gradient(135deg,#e0f2fe,#dbeafe,#ede9fe);
+}
+
+/* Sidebar */
+
+.sidebar{
+width:250px;
+height:100vh;
+background:linear-gradient(180deg,#0f172a,#1e293b);
+color:white;
+padding:20px;
+position:fixed;
+left:0;
+top:0;
+box-shadow:4px 0 10px rgba(0,0,0,0.2);
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+padding:14px;
+margin-bottom:10px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.sidebar a:hover{
+background:#2563eb;
+}
+
+/* Main Content */
+
+.main-content{
+margin-left:250px;
+width:100%;
+padding:30px;
+}
+
+.main-content h1{
+color:#1e293b;
+margin-bottom:30px;
+font-size:32px;
+}
+
+/* Dashboard Cards */
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+width:220px;
+padding:25px;
+border-radius:15px;
+color:white;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card:nth-child(1){
+background:linear-gradient(135deg,#3b82f6,#60a5fa);
+}
+
+.card:nth-child(2){
+background:linear-gradient(135deg,#22c55e,#4ade80);
+}
+
+.card:nth-child(3){
+background:linear-gradient(135deg,#ef4444,#f87171);
+}
+
+.card:nth-child(4){
+background:linear-gradient(135deg,#a855f7,#c084fc);
+}
+
+.card h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:18px;
+}
+
+/* Attendance Table */
+
+.table-box{
+margin-top:40px;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.table-box h2{
+margin-bottom:15px;
+color:#1e293b;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:12px;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+
+tr:hover{
+background:#f1f5f9;
+}
