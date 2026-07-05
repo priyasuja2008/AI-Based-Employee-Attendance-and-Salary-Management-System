@@ -6,24 +6,18 @@ The AI-Based Employee Attendance and Salary Management System is a web applicati
 
 Features
 
-- Secure employee login
-- Employee management
-- AI-based face recognition attendance
-- Attendance history tracking
-- Salary calculation
-- Reports and dashboard
-- User-friendly interface
 
-Technologies Used
+-Employee Registration
 
-- HTML
-- CSS
-- JavaScript
-- Python
-- Flask
-- SQLite
-- OpenCV
-- Face Recognition
+-Face Registration
+
+-Face Recognition Attendance
+
+-Dashboard
+
+-Attendance Reports
+
+-Salary Management
 
 Project Status
 
@@ -36,3 +30,16 @@ Future Enhancements
 - Email notifications
 - Payroll report generation
 - Cloud database integration
+
+
+Tech Stack
+
+Python, Flask, OpenCV, face_recognition, MySQL, HTML, CSS, JavaScript
+
+
+Run
+
+pip install -r requirements.txt
+python app.py
+
+
